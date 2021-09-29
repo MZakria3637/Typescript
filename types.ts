@@ -1,0 +1,22 @@
+let myString:string;
+let bool:boolean;
+let myVar:any;
+let array:string[];
+let numArray:Array<number>;
+numArray=[1,2,3,4,5];
+array=['hello','world'];
+myString="Hello World".slice(0,5);
+bool=true;
+//myVar=4;
+myVar="ghss";
+console.log(bool);
+console.log(numArray);
+let stringNumTuple:[string,number];
+stringNumTuple=['string',12,];
+console.log(stringNumTuple)
+let myvoid:void=null;
+console.log(myvoid);
+let mynull:null=null;
+console.log(mynull);
+let myundefined:undefined=undefined;
+console.log(myundefined);
